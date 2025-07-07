@@ -1,12 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
   // output: "export",
-  // basePath: "test-next",
-  // images: {
-  //   unoptimized: true
-  // }
+  basePath: '/text-next/',
+  assetPrefix: '/text-next/',
 };
 
 export default nextConfig;
